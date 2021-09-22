@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	printf("hello \b\bfriends");
+	printf("\v welcome \b\b\bto gfg");
+	getch();
+}

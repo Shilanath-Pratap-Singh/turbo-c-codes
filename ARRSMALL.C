@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[]={1,2,3,4,5};
+	int var=a[0],i;
+	clrscr();
+	for(i=0;i<=4;i++)
+	{
+	 if(a[i]<=var)
+	 {
+		var=a[i];
+		printf("%d",var);
+	 }
+	}
+	//printf("smallest value is %d",var);
+	getch();
+}

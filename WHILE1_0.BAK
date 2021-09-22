@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=5;
+	clrscr();
+	while(--i)
+	{
+	printf("%d",i);
+	}
+	getch();
+}

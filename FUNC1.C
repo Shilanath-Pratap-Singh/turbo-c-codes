@@ -1,0 +1,31 @@
+#include<stdio.h>         //program name :>add and multiply
+#include<conio.h>
+int add();               //fuction decleration
+int mult();
+void main()
+{
+	clrscr();
+	int xx,yy;
+	//
+	//printf("Enter the xx:");
+	//scanf("%d",&xx);
+	//printf("Enter the yy:");
+	//scanf("%d",&yy);
+	xx=add();
+	printf("sum=%d\n",xx);     //futiion call
+	yy=mult();
+	printf("mult=%d",yy);
+	getch();
+}
+int add( )            //definition
+{
+int a=12,b=11,c;
+c=a+b;
+return(c);
+}
+int mult( )
+{
+int a=12,b=1,c;
+c=a*b;
+return(c);
+}

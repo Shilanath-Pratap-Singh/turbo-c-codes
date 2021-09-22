@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+sum();
+void sum()
+{
+	clrscr();
+	printf("hello");
+}
+void main()
+{
+	  sum();
+}
+getch();

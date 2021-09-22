@@ -1,0 +1,53 @@
+#include<stdio.h>
+#include<conio.h>
+#define size 5
+void main()
+{
+	int arr[size]={2,1,2,3,3},i,j;
+	int a=arr[0],b;
+	clrscr();
+	/*printf("Enter the %d value:",size);
+	for(i=0;i<size;i++)
+	{
+		scanf("%d",&arr[i]);
+	}
+	 a=arr[0];
+	for(i=0;i<size;i++)
+	{
+
+		if(arr[i+1]==a)
+		a=arr[i+1];
+
+	}*/
+	//for(i=1;i<3;i++)
+	 /* if(arr[0]==arr[1])
+	 {
+	     b=arr[0];
+	     printf("%d",b);
+	 }
+	 else if(arr[0]==arr[2])
+	 {
+	     b=arr[2];
+	     printf("%d",b);
+	 }
+	  else if(arr[1]==arr[2])
+	 {
+	     b=arr[1];
+	     printf("%d",b);
+	 }
+	printf("duplicate value is %d",b); */
+
+
+
+	for(i=0;i<5;i++)
+	{
+		for(j=i+1;j<5;j++)
+		{
+		     if(arr[i]==arr[j])
+		     {
+			printf("%d ",arr[i]);
+		     }
+		}
+	}
+	getch();
+}

@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void display() ;
+int main()
+{
+	clrscr();
+	printf("learn c\n");
+	display();
+	getch();
+	return(0);
+}
+void display()
+{
+	printf("c, c++,java");
+	//main();
+
+}

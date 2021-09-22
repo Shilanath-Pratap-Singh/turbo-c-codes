@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+add();
+mult();
+void main()
+{       clrscr();
+	add();
+	mult();
+	getch();
+}
+add()
+{
+int a,b,c;
+c=a+b;
+printf("sum: %d",c);
+}
+mult()
+{
+int a,b,c;
+c=a*b;
+printf("mult: %d",c)
+}

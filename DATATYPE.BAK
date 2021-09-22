@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a=10/3;
+	char b='a';
+	float c=1.2;
+	double d=1.2;
+	clrscr();
+	printf("\n%f",a);
+	printf("\n%d",sizeof(a));
+	printf("\n%c",sizeof(b));
+	printf("\n%f",sizeof(c));
+	printf("\n%ld",sizeof(d));
+	getch();
+}

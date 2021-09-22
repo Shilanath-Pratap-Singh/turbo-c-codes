@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<conio.h>
+enum abc(a,b,c);
+void main()
+{
+	int x,a,b,c;
+	x=a+b+c;
+	printf("%d",a);
+}

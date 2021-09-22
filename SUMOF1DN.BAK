@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{int n,d1,d5,sum;
+clrscr();
+printf("enter five digit number:");
+scanf("%d",&n);
+d5=n%10;
+n=n/10000;
+d1=n%10;
+sum=d1+d5;
+printf("sum of 1st digit and 2nd digit is=%d",sum);
+getch();
+}

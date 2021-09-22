@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void sum();
+void sab();
+void main()
+{
+	clrscr();
+	sum();
+	sab();
+	getch();
+}
+void sum()
+{
+	printf("hello");
+}
+void sab()
+{
+	printf("hii");
+}

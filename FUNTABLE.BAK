@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void tab(int);
+void main();
+{
+   int n;
+   printf("Enter the n:");
+   scanf("%d",&n);
+   tab(n);
+}
+tab(int x)
+{
+   int i,j;
+   for(i=1;i<=x;i++)
+   {
+	printf("\n");
+	for(j=1;j<=10;j++)
+	{
+		printf("%d\t",i*j);
+	}
+   }
+}

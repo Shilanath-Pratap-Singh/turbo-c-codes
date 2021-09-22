@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[3],b[3],i,j,k,s;
+	clrscr();
+	printf("Enter a[i]:");
+
+	for(i=0;i<=2;i++)
+	{
+	scanf("%d",&a[i]);
+	}
+	printf("enter b[j]:");
+	for(j=0;j<=2;j++)
+	{
+	scanf("%d",&b[j]);
+	}
+	for(k=0;k<=2;k++)
+	{
+	       s=a[k]+b[k];
+		printf("\n[%d]+[%d]=%d",a[k],b[k],s);
+	}
+	getch();
+}

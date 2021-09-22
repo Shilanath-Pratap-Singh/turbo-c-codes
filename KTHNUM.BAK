@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#define size 5
+void main()
+{
+	int a[size],i;
+	clrscr();
+	printf("Enter the %d Number",size);
+	for(i=0;i<5;i++)
+	{
+	     scanf("%d",&a);
+	}
+	printf("Your Enter number are:-);
+	for(i=0;i<5;i++)
+	{
+	     printf(" %d ",a[i]);
+	}
+}
